@@ -1,22 +1,28 @@
-# Algo-Trading
+# Euclidean Distance Analysis
 
-At the end of the course you will be able to do the following:
+## Overview
+This notebook explores the calculation of Euclidean distances between high-dimensional vectors, employing both loop-based and vectorized methods. The goal is to analyze computational efficiency and statistical properties, such as mean, variance, skewness, and kurtosis.
 
-- Distinguish between trading and investing
-- Understand the fundamentals of trading, including the concept of trend, returns, stop-loss, and volatility
-- Identify the main trading strategy categories in the Quant universe
-- Understand the function of each component of a quant strategy
-- Identify the key strengths and weaknesses of quant strategies
-- Understand the steps in executing an exchange or statistical arbitrage
-- Identify the components and infrastructure needs of an index arbitrage strategy
-- Understand the goals of the backtesting validation technique
-- Identify the steps in creating a split-data backtesting model
-- Identify the steps in designing a sliding-window backtesting model
-- Understand some of the weaknesses and biases that can affect a backtest
-- Distinguish between development and implementation backtesting models
-- Understand the differences between supervised/unsupervised and regression/classification machine learning models
-- Identify the profit source and structure of basic quantitative trading strategies
-- Gauge how well a machine learning model generalizes its learning
-- Explain the differences between regression and forecasting
-- Use Google Cloud Platform to build basic machine learning models in Jupyter Notebooks
-- Understand the opportunities and limitations of statistical arbitrage
+## Key Sections
+
+1. **Data Generation**  
+   - Generates sample points in n-dimensional space using a uniform distribution.
+   
+2. **Distance Calculation**  
+   - Implements two methods for calculating distances: a loop-based approach and a vectorized approach.
+
+3. **Statistical Analysis**  
+   - Calculates and interprets statistical measures of Euclidean distances: mean, variance, skewness, and kurtosis.
+
+4. **Visualization**  
+   - Plots histograms comparing observed data against theoretical distributions for varying dimensions and sample sizes.
+   
+5. **Performance Evaluation**  
+   - Compares performance between the loop-based and vectorized implementations.
+
+## Dependencies
+- Python libraries: `NumPy`, `SciPy`, `Matplotlib`
+  
+## Usage
+To use or modify this notebook, ensure all dependencies are installed and run each section sequentially.
+
